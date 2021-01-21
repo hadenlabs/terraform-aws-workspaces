@@ -47,7 +47,7 @@ MESSAGE_HAPPY:="Done! ${MESSAGE}, Now Happy Hacking"
 SOURCE_DIR=$(ROOT_DIR)
 PROVISION_DIR:=$(ROOT_DIR)/provision
 DOCS_DIR:=$(ROOT_DIR)/docs
-README_TEMPLATE:=$(PROVISION_DIR)/templates/README.md
+README_TEMPLATE:=$(PROVISION_DIR)/templates/README.md.gotmpl
 TERRAFORM_README_FILE := $(DOCS_DIR)/include/terraform.md
 
 export README_FILE ?= README.md
