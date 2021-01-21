@@ -16,6 +16,21 @@ tags:
 categories:
   - terraform-modules/workspaces
 
+company:
+  name: hadenlabs
+  description: |-
+    company labs
+  url: https://hadenlabs.com
+  github: https://github.com/hadenlabs
+  email: support@hadenlbas.com
+
+copyright:
+  name: Hadenlabs
+  url: https://hadenlabs.com
+
+email:
+  support: support@hadenlabs.com
+
 # Logo for this project
 #logo: docs/logo.png
 
