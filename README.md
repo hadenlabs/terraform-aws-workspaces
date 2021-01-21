@@ -11,6 +11,7 @@
 
 
   -->
+
  
 
 # terraform-aws-workspaces [![Build Status](https://travis-ci.org/hadenlabs/terraform-aws-workspaces.svg?branch=main)](https://travis-ci.org/hadenlabs/terraform-aws-workspaces) [![Latest Release](https://img.shields.io/github/release/hadenlabs/terraform-aws-workspaces.svg)](https://travis-ci.org/hadenlabs/terraform-aws-workspaces/releases)
@@ -19,11 +20,15 @@
 
 ---
 
-This project is part of our comprehensive ["Hadenlabs"](https://hadenlabs.com) modules of terraform.
+
+This project is part of our comprehensive [hadenlabs](https://hadenlabs.com) modules of terraform.
+
 
     
 
-  
+
+
+ 
 
 ## Usage
 
@@ -101,7 +106,8 @@ Please use the [issue tracker](https://github.com/hadenlabs/terraform-aws-worksp
 
 ### Developing
 
-If you are interested in being a contributor and want to get involved in developing this project or [help out](https://github.com/hadenlabs) with our other projects, we would love to hear from you! Shoot us an [email](mailto:hola@hadenlabs.com).
+If you are interested in being a contributor and want to get involved in developing this project or [help out](https://hadenlabs.com)
+with our other projects, we would love to hear from you! Shoot us an [email](mailto:support@hadenlabs.com).
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
@@ -111,13 +117,14 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 4.  **Push** your work back up to your fork
 5.  Submit a **Pull Request** so that we can review your changes
 
-**NOTE:** Be sure to merge the latest changes from "upstream" before making a pull request!
+**NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
 
 
 
 ## Copyright
 
-Copyright © 2018-2021 [Hadenlabs, LLC](https://hadenlabs.com) 
+Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
+
 
  
 
@@ -133,7 +140,7 @@ All other trademarks referenced herein are the property of their respective owne
 
 ## About
 
-This project is maintained and funded by [Hadenlabs, LLC][website]. Like it? Please let us know at <hola@hadenlabs.com>
+This project is maintained and funded by [Hadenlabs][https://hadenlabs.com]. Like it? Please let us know at <support@hadenlabs.com>
 
 
 
