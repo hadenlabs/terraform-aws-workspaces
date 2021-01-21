@@ -1,0 +1,64 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: terraform-aws-workspaces
+
+# Tags of this project
+tags:
+  - openvpn
+  - vpn
+
+# Categories of this project
+categories:
+  - terraform-modules/workspaces
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'Apache2'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/terraform-aws-workspaces
+
+# Badges to display
+badges:
+  - name: 'Build Status'
+    image: 'https://travis-ci.org/hadenlabs/terraform-aws-workspaces.svg?branch=main'
+    url: 'https://travis-ci.org/hadenlabs/terraform-aws-workspaces'
+  - name: 'Latest Release'
+    image: 'https://img.shields.io/github/release/hadenlabs/terraform-aws-workspaces.svg'
+    url: 'https://travis-ci.org/hadenlabs/terraform-aws-workspaces/releases'
+
+# Short description of this project
+description: |-
+  Terraform module to provision an workspace instance.
+
+# How to use this project
+usage: |-
+  ```hcl
+    module "main" {
+      source  = "hadenlabs/workspaces/aws"
+      version = "0.0.0"
+
+      providers = {
+        aws = aws.main
+      }
+
+    }
+  ```
+
+  Full working example can be found in [example](./example) folder.
+
+include:
+  - 'docs/include/targets.md'
+  - 'docs/include/terraform.md'
+
+# Contributors to this project
+contributors:
+  - name: 'Luis Mayta'
+    github: 'luismayta'
