@@ -90,7 +90,6 @@ repos:
       - id: terraform_docs_replace
       - id: terraform_tflint
         args:
-          - '--args=--deep'
           - '--args=--config=__GIT_WORKING_DIR__/.github/linters/.tflint.hcl'
       - id: terragrunt_fmt
       - id: terraform_fmt
