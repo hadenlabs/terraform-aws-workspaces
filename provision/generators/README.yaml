@@ -22,7 +22,7 @@ company:
     company labs
   url: https://hadenlabs.com
   github: https://github.com/hadenlabs
-  email: support@hadenlbas.com
+  email: support@hadenlabs.com
 
 copyright:
   name: Hadenlabs
@@ -35,7 +35,7 @@ email:
 #logo: docs/logo.png
 
 # License of this project
-license: 'Apache2'
+license: 'APACHE2'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/terraform-aws-workspaces
@@ -68,6 +68,9 @@ usage: |-
   ```
 
   Full working example can be found in [example](./example) folder.
+
+examples:
+  - 'docs/examples/common.md'
 
 include:
   - 'docs/include/targets.md'
