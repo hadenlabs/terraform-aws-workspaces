@@ -9,7 +9,7 @@ locals {
 }
 
 resource "aws_workspaces_directory" "main" {
-  count = var.create_directory ? 1 : 0
+  count        = var.create_directory ? 1 : 0
   directory_id = aws_directory_service_directory.main[0].id
 
   subnet_ids = [
@@ -34,7 +34,7 @@ resource "aws_workspaces_workspace" "main" {
 
   root_volume_encryption_enabled = var.root_volume_encryption_enabled
   user_volume_encryption_enabled = var.user_volume_encryption_enabled
-  volume_encryption_key          = var.volume_encryption_key
+  volume_encryption_key          = var.root_volume_encryption_enabled || var.user_volume_encryption_enabled ? var.volume_encryption_key : null
 
   workspace_properties {
     compute_type_name                         = var.compute_type_name

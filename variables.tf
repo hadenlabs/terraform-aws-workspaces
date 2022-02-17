@@ -80,84 +80,84 @@ variable "update_dhcp_options" {
 
 variable "access_ip_group" {
   description = "value"
-  type = map(string)
-  default = { any = "0.0.0.0/0" }
+  type        = map(string)
+  default     = { any = "0.0.0.0/0" }
 }
 
 variable "allow_increase_volume" {
   description = "Enable users to increase volume size"
-  type = bool
-  default = false
+  type        = bool
+  default     = false
 }
 
 variable "allow_rebuild_workspace" {
   description = "Enable users to rebuild their workspace"
-  type = bool
-  default = false
+  type        = bool
+  default     = false
 }
 
 variable "create_vpc" {
   description = "Enable VPC creation"
-  type = bool
-  default = false
+  type        = bool
+  default     = false
 }
 
 variable "vpc_id" {
   description = "Existing VPC ID to use"
-  type = string
-  default = null
+  type        = string
+  default     = null
 }
 
 variable "existing_directory_id" {
   description = "Existing Directory ID to use with workspace"
-  type = string
-  default = null
+  type        = string
+  default     = null
 }
 
 variable "compute_type_name" {
   description = "Compute type name to use for workspace"
-  type = string
-  default = "VALUE"
+  type        = string
+  default     = "VALUE"
 }
 
 variable "user_volume_size_gib" {
   description = "User volume size in gib"
-  type = number
-  default = 10
+  type        = number
+  default     = 10
 }
 
 variable "root_volume_size_gib" {
   description = "Root volume size in gib"
-  type = number
-  default = 80
+  type        = number
+  default     = 80
 }
 
 variable "running_mode" {
   description = "Workspace running mode"
-  type = string
-  default = "AUTO_STOP"
+  type        = string
+  default     = "AUTO_STOP"
 }
 
 variable "running_mode_timeout_min" {
   description = "Number of minutes until a workspace is automatically stopped"
-  type = number
-  default = 60
+  type        = number
+  default     = 60
 }
 
 variable "create_vpc_cidr" {
   description = "CIDR block to use when creating VPC"
-  type = string
-  default = "10.0.0.0/16"
+  type        = string
+  default     = "10.0.0.0/16"
 }
 
 variable "create_vpc_subnet_a" {
   description = "CIDR block for subnet A"
-  type = string
-  default = "10.0.1.0/24"
+  type        = string
+  default     = "10.0.1.0/24"
 }
 
 variable "create_vpc_subnet_b" {
   description = "CIDR block for subnet B"
-  type = string
-  default = "10.0.2.0/24"
+  type        = string
+  default     = "10.0.2.0/24"
 }
