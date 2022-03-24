@@ -48,7 +48,7 @@ resource "aws_workspaces_workspace" "main" {
 }
 
 resource "aws_workspaces_ip_group" "main" {
-  name        = "main"
+  name        = "main-ip-access-group-${var.user_name}"
   description = "Main IP access control group"
 
   dynamic "rules" {
